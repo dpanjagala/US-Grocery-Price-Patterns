@@ -1,0 +1,39 @@
+# ----------------------------
+# Python / VS Code / Jupyter
+# ----------------------------
+
+# Virtual environment
+.venv/
+__pycache__/
+*.pyc
+
+# Jupyter auto-checkpoints
+.ipynb_checkpoints/
+
+# VS Code workspace files
+.vscode/
+
+# Mac / Windows system files
+.DS_Store
+Thumbs.db
+
+# ----------------------------
+# Data folders (large files)
+# ----------------------------
+
+# Raw and intermediate data
+data/raw/*
+data/interim/*
+
+# Model outputs and figures
+outputs/*
+
+# Keep folder structure placeholders if needed
+!outputs/models/.gitkeep
+
+# ----------------------------
+# Logs or temporary files
+# ----------------------------
+
+*.log
+*.tmp
